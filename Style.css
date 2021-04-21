@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.navbar-section{
+   background-color: white;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    font-size: 9px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    
+
+}
+
+.logo{
+    padding-left: 250px;
+}
+
+.navbar-section ul li a::after{
+    content: "";
+    height: 1.5px;
+    display: block;
+    width: 59px;
+    background: red;
+    position: absolute;
+    bottom:31px;
+    left: 1px;
+    
+    
+         
+}
+
+.navbar-section:hover{
+    color: red;
+}
+
+.navbar-section li:hover{
+    color: red;
+}
+
+.navbar-section ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar-section ul li{
+   padding: 58px;
+    position: relative;
+}
+
+.navbar-section ul li a{
+    text-decoration: none; 
+}
+
+.drop-down{
+    display: none;
+}
+
+.navbar-section ul li:hover .drop-down{
+    
+    text-align: center; 
+    position: absolute;
+    display: block;
+    color: red;
+}
+.drop-down ul{
+    
+    display: flex;
+    
+    display: block;
+    background-color: white; 
+    cursor: pointer;
+}
+.navbar-section ul li .drop-down:hover{
+    color: red;
+}
+.drop-down ul li{
+    padding: 15px;
+}
+
+
+
+
+
+
+  
+    
+    
+    
+
